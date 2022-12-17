@@ -26,8 +26,8 @@ public class Login extends JFrame {
 		c = this.getContentPane();
 		c.setLayout(null);
 
-		f1 = new Font("Arial", Font.BOLD, 40);// for label1.
-		f2 = new Font("Arial", Font.BOLD, 20);// for label2,label3,text field and password field.
+		f1 = new Font("Arial", Font.BOLD, 40);// for label1 and password field.
+		f2 = new Font("Arial", Font.BOLD, 20);// for label2,label3,text field.
 		f3 = new Font("Arial", Font.BOLD, 30);// for button.
 
 		l1 = new JLabel("Welcome To Hall Management System");
@@ -51,7 +51,7 @@ public class Login extends JFrame {
 		p = new JPasswordField();
 		p.setEchoChar('*');
 		p.setBounds(200, 240, 300, 50);
-		p.setFont(f2);
+		p.setFont(f1);
 		c.add(p);
 
 		b = new JButton("Login");
@@ -180,4 +180,4 @@ public class Login {
 
 	}
 }
- */
+*/
